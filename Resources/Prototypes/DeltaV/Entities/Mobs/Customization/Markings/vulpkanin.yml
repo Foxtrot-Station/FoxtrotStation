@@ -86,8 +86,7 @@
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fox
-
-#    - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
+#    - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi | Floof - M3739 - Yokai - Commented out for posterity. We have yet to get this.
 #      state: fox-inner
 
 - type: marking
@@ -275,7 +274,7 @@
   id: VulpTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
@@ -297,7 +296,7 @@
   id: VulpTailTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
@@ -352,7 +351,7 @@
   id: VulpTailFox
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
@@ -374,7 +373,7 @@
   id: VulpTailFoxTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
@@ -470,7 +469,7 @@
   id: VulpTailFox2
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox2
@@ -479,7 +478,7 @@
   id: VulpTailFox3
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3
@@ -490,7 +489,7 @@
   id: VulpTailFennec
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Human, HumanHybrid, SlimePerson, IPC, Canid, Oni, Felinid, Rodentia, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Oni, Felinid, Rodentia, Kitsune]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
