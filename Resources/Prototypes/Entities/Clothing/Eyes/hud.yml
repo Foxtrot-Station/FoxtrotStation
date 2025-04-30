@@ -7,20 +7,6 @@
   - type: ShowMindShieldIcons
   - type: ShowCriminalRecordIcons
 
-- type: entity
-  id: ShowMedicalIcons
-  abstract: true
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ShowHealthBars
-  - type: ShowHealthIcons
-
-- type: entity
-  id: ShowPsionicsIcons
-  abstract: true
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ShowPsionicsRecordIcons
 
 - type: entity
   parent: ClothingEyesBase
@@ -72,15 +58,16 @@
     - HudSecurity
 
 - type: entity
-  parent: [ClothingEyesBase, ShowPsionicsIcons]
-  id: ClothingEyesHudEpistemics
-  name: epi psionics hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their psionics records.
+  parent: [ClothingEyesBase]
+  id: ClothingEyesHudCommand
+  name: administration hud
+  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Hud/epi.rsi
+    sprite: Clothing/Eyes/Hud/command.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/epi.rsi
+    sprite: Clothing/Eyes/Hud/command.rsi
+  - type: ShowJobIcons
 
 - type: entity
   parent: ClothingEyesBase
@@ -190,9 +177,9 @@
   - type: ShowHealthIcons
     damageContainers:
     - Biological
-  - type: Tag
-    tags:
-    - HudMedicalSecurity
+      type: Tag
+      tags:
+      - HudMedicalSecurity
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
